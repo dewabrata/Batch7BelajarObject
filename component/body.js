@@ -1,7 +1,9 @@
+import Component from '../component/component';
 
-class Body {
+class Body extends Component {
 
   constructor(){
+  super();
   }
 
  draw(){
